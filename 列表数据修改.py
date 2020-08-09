@@ -10,5 +10,5 @@ list1 = [1, 5, 8, 4, 6, 7]
 
 # 排序 sort -- 默认升序排序
 # list1.sort()
-list1.sort(reverse=True)
+list1.sort(reverse=True)  # 降序
 print(list1)
