@@ -22,7 +22,9 @@ for name in teacher:
 print(office)
 
 # 验证
+i = 1
 for j in office:
-    print(f'办公室人数是{len(j)}')
+    print(f'办公室{i}人数是{len(j)}')
+    i = i + 1
     for names in j:
         print(names)
