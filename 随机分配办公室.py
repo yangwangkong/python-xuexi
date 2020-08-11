@@ -23,5 +23,6 @@ print(office)
 
 # 验证
 for j in office:
-    print(j)
     print(f'办公室人数是{len(j)}')
+    for names in j:
+        print(names)
